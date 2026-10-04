@@ -1,0 +1,37 @@
+# Environments
+.env
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE / OS specific files
+.idea/
+.vscode/
+*.swp
+*.DS_Store
+.DS_Store
+
+# Local vector database storage (if any)
+chroma_data/
+*.sqlite3
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Temporary uploaded files
+temp_*.pdf
